@@ -20,4 +20,9 @@ body {
   display: block;
   width: calc((100% - 48) / 3);
   height: 200px;
+  transition: transform 0.3s ease-in;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
 }
