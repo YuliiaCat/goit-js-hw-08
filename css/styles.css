@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.gallery {
+  width: 1128px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 24px;
+  margin: 0 auto;
+}
+
+.gallery img {
+  display: block;
+  width: calc((100% - 48) / 3);
+  height: 200px;
+}
